@@ -1,0 +1,27 @@
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+      <h1 class="text-center mb-3">
+        <i class="fas fa-shield-alt"></i> Verify OTP
+      </h1>
+      <%- include('partials/messages'); -%>
+      <form action="/users/verify" method="POST">
+        <div class="form-group">
+          <label for="otp">Mobile Number</label>
+          <input
+            type="text"
+            id="otp"
+            name="otp"
+            class="form-control"
+            placeholder="Enter OTP"
+            value="<%= typeof otp != 'undefined' ? otp : '' %>"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          Submit
+        </button>
+      </form>
+      <p class="lead mt-4">Resend OTP <a href="/users/verify">Login</a></p>
+    </div>
+  </div>
+</div>

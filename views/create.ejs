@@ -1,0 +1,19 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+
+  <div class="create-blog content">
+    <form action="/api/notices" method="POST">
+      <label for="title">Notice title:</label>
+      <input type="text" id="title" name="title" required>
+      <label for="name">Orgaisation name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="body">Notice body:</label>
+      <textarea id="body" name="body" required></textarea>
+      <button>Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
