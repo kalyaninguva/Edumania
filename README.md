@@ -1,24 +1,48 @@
+# 🏫 Edumania - Unified School Platform
 
+Edumania is a web application that creates a unified platform for schools and users to interact. It helps schools publish themselves online and allows users to explore schools, pay fees, view notices, and more.
 
+---
 
-This project is mainly to create a combined platform for all the schools. Our application offers a platform for schools and businesses to interact. Schools can be added into our website so that they can publish their school. It is a web application which provides services where business applicants or users will be able to make use of our services.
-Features :    
+## 🚀 Features
 
- - **Otp Authentication**
-	 - API to send otp to users when registering.
-	 - API - 2factor.in
- - **Fee Payments**
-	 - Payment gateway to pay the fee in an online mode. Students can pay the fee using our payment portal.
-	 - API - Paytm
- - **Schools in a Locality**
-	 - Clients can make use of this service to find best matched schools in a locality according their requirements.
- - **Notice Board**
-	 - Clients can make use of this service to find all the notices given by a particular Organization.
- - **EAD feature**
-	 - Security for accessing API and logging in
+- **🔐 OTP Authentication**
+  - Secure user registration with OTP verification via [2factor.in](https://2factor.in).
+  
+- **💳 Online Fee Payments**
+  - Students can pay school fees through integrated Paytm payment gateway.
 
-To run this project:
+- **📍 School Search by Locality**
+  - Users can search and discover schools based on location and preferences.
 
-- Go to Edumania folder run npm install
-- Then go to landing page folder and run npm install 
-- and back to Edumania folder and run npm run dev
+- **📢 Notice Board**
+  - View all official notices published by schools/organizations.
+
+- **🔐 EAD (Enhanced API Security)**
+  - Secure API access and user login system.
+
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally:
+
+```bash
+# Step 1: Go to Edumania folder
+cd Edumania
+npm install
+
+# Step 2: Navigate to landing page folder
+cd landing
+npm install
+
+# Step 3: Go back to Edumania folder and start the project
+cd ..
+npm run dev
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
